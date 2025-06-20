@@ -15,10 +15,10 @@ Optimising data types for efficient storage
 
 Creating a summary table with monthly averages and derived KPIs
 
-Visualising the data for business interpretation
+Visualising the data for business interpretation  
 
-💻 Technologies Used  
-Language: Python, SQL, R
+## 🛠️ Technologies Used  
+Language: Python, SQL (MySQL), R
 
 Database: MySQL
 
