@@ -7,21 +7,32 @@ The project focuses on processing, cleaning, transforming, and visualising surve
 To clean, transform, and summarise mall visitor survey data, and provide a monthly summary of customer satisfaction indicators. 
 The project tasks include:
 
-Importing and storing raw survey data into MySQL
-
-Cleaning inconsistent date formats
-
-Optimising data types for efficient storage
-
-Creating a summary table with monthly averages and derived KPIs
-
-Visualising the data for business interpretation  
+1. Importing and storing raw survey data into MySQL
+2. Cleaning inconsistent date formats
+3. Optimising data types for efficient storage
+4. Creating a summary table with monthly averages and derived KPIs
+5. Visualising the data for business interpretation  
 
 ## 🛠️ Technologies Used  
-Language: Python, SQL (MySQL), R
+Language: Python, SQL (MySQL), R   
+Packages (R): DBI, RMySQL, ggplot2, dplyr, scales  
+Tools: RStudio, MySQL Workbench, Jupyter Notebook  
 
-Database: MySQL
+## Codes Explained
+1. Python script to access the dataset and store it as a MySQL table in MySQL database
+   image 1a
 
-Packages (R): DBI, RMySQL, ggplot2, dplyr, scales
+2. MySQL statement to clean up inconsistent date format
+   image 1b
 
-Tools: RStudio, MySQL Workbench, Jupyter Notebook
+3. Alter Table statement to optimise data type for efficient storage
+   image 1c
+
+4. MySQL statement to create summary table
+   image 1d
+
+5. R code to read in summary table and store it as an R data frame
+   image 1e1
+
+6. R code for visualization
+   image 1e2
