@@ -1,5 +1,5 @@
 ### 🛍️ Data Wrangling Project: Customer Satisfaction Analysis for a New Shopping Mall
-This repository contains the code, SQL queries, and visualisation assets developed and submitted in April 2025 for the End-of-Course Assessment 
+[This repository](https://github.com/cheeweeng/Data_Wrangling_Capstone_SUSS) contains the code, SQL queries, and visualisation assets developed and submitted in April 2025 for the End-of-Course Assessment 
 Data Wrangling at the Singapore University of Social Sciences (SUSS).   
 The project focuses on processing, cleaning, transforming, and visualising survey data collected from mall visitors in 2024.  
 
