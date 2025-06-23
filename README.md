@@ -50,7 +50,16 @@ This R code read in the summary table and store it as an R data frame.
 A single visual was created to make it easy for the mall manager to understand the information in the table.
 
 ## Visualisation
+![Image](https://github.com/user-attachments/assets/6dd353dd-4d2a-424f-a8b5-a371282363e0)  
 
+<div style="text-align: justify;">To visualize multiple variables of different scales over time (months) from the ECA_summary dataset, I evaluated options like a dual-axis line chart and a facet grid of line charts, as suggested by ChatGPT. 
+The advantages of a dual-axis line chart are it could plot the six variables in ECA_summary in one single chart as separate lines in different colors and the x-axis representing the months.
+The dual y-axes will take care of the different scale of the variables, TNCR in percentage and the other variables in scale of 0-10.
+The disadvantages of a dual-axis line chart are that it could become cluttered to have six different variables in a single chart, especially if the lines overlapped. Furthermore, the dual y-axes will add to the clutter and confuse viewer due to the different scale.
+On the other hand, the advantages of a facet grid of line chart are clutter-free individual chart for each variable and reduce confusion as it is easier to read and interpret as there is only one y-axis.
+The disadvantages of a dual-axis line chart are that it is harder to compare the different variables since they are in sperate panels and less likely for user to spot correlation between the variables.
+In conclusion, I have chosen a facet grid of line charts as it offers clutter-free and easy to understand visualization, especially without the dual axes to add to the chart clutter. In addition, the customer experience manager of the mall is likely to want to view the individual variable on its own and very rarely will require to compare those variables against each other.
+</div>
 
 
 Back to [Project main page](https://cheeweeng.github.io)
